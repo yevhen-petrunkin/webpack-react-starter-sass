@@ -33,7 +33,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
       title: 'React-App',
-      template: path.resolve(__dirname, './src/index.html'),
+      template: path.resolve(__dirname, './index.html'),
       filename: 'index.html',
     }),
     new MiniCssExtractPlugin({

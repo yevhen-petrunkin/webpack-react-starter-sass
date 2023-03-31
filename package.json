@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://yevhen-petrunkin.github.io/webpack-react-config/",
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
