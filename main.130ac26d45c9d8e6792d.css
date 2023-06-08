@@ -1,0 +1,4 @@
+:root{--blue-color: #2196f3}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;white-space:nowrap;clip-path:inset(100%);clip:rect(0 0 0 0);overflow:hidden}
+:root{--blue-color: #2196f3}.var{color:var(--blue-color)}.sass{color:red}
+
+/*# sourceMappingURL=main.130ac26d45c9d8e6792d.css.map*/
