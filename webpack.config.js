@@ -83,7 +83,7 @@ module.exports = {
         type: 'asset/inline',
       },
       {
-        test: /\.css$/i,
+        test: /\.s?css$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -92,6 +92,7 @@ module.exports = {
             },
           },
           'css-loader',
+          'sass-loader',
         ],
       },
     ],

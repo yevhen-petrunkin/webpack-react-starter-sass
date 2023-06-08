@@ -1,21 +1,24 @@
 {
   "name": "webpack-react-starter",
   "version": "1.0.0",
+  "homepage": "https://yevhen-petrunkin.github.io/webpack-react-starter-sass/",
   "description": "",
   "main": "index.js",
-  "homepage": "https://yevhen-petrunkin.github.io/webpack-react-config/",
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
     "build": "webpack --mode production",
     "build-dev": "webpack",
-    "clean": "rm -rf build"
+    "clean": "rm -rf build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "Skjold <mmm@mail.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -29,6 +32,8 @@
     "image-webpack-loader": "^8.1.0",
     "imagemin": "^8.0.1",
     "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.63.2",
+    "sass-loader": "^13.3.1",
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
